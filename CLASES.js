@@ -1,3 +1,5 @@
+//EJERCICIO 
+
 class Persona { // UNA CLASE ES UNA PLANTILLA
     constructor(n, a, e,dni) { // CONSTRUCTOR: Define cómo se crea una nueva persona. Recibe los datos como parámetros y los asigna a propiedades del objeto
       this.nombre = n;
