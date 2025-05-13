@@ -1,21 +1,21 @@
 class Producto {
+    #stock = 0;
     constructor (n, p, s){
         this.nombre = n;
         this.precio = p;
-        this.stock = s
 
     }
 
     info(){
-        return `El nombre del producto es: ${this.nombre} su precio es: ${this.precio} y el stock: es ${this.stock}`
+        return `El nombre del producto es: ${this.nombre} su precio es: ${this.precio} y el stock: es ${this.#stock}`
         }
 
         sumarAlStock(prod){
-        this.stock += prod
+        this.#stock += prod
         }
 
         restarAlStock(prod){
-            this.stock -= prod
+            this.#stock -= prod
             }
 
 }
