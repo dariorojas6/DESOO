@@ -1,3 +1,5 @@
+
+
 class Producto {
     #stock = 0;
     constructor (n, p, s){
@@ -27,4 +29,5 @@ producto1.restarAlStock(2)
 console.log(producto1.info())
 producto1.sumarAlStock(400)
 console.log(`STOCK ACTUALIZADO: ${producto1.stock}`)
-    
+
+
